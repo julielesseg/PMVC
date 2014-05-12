@@ -1,4 +1,7 @@
 @charset "utf-8";
+@import "compass";
+@import "breakpoint";
+
 
 body {
   background: #d4d4d4 url("../images/background.png");
@@ -53,3 +56,10 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+
+.columns_12
+
+@media-lg: max-width 1000px;
+@media-med: min-width 800px;
+@media-sm
