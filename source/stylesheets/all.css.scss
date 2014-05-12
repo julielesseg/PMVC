@@ -10,7 +10,7 @@ body {
   font-family: sans-serif; }
 
 h1 {
-  color: rgba(0, 0, 0, .3);
+  color: $red;
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
@@ -58,9 +58,11 @@ h1 {
   }
 }
 
+/*
 
 .columns_12
 
 @media-lg: max-width 1000px;
 @media-med: min-width 800px;
 @media-sm
+*/
