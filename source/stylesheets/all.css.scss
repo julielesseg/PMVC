@@ -1,7 +1,7 @@
 @charset "utf-8";
-@import "_partials";
 @import "compass";
 @import "breakpoint";
+@import "_partials/*";
 
 
 body {
@@ -10,7 +10,7 @@ body {
   font-family: sans-serif; }
 
 h1 {
-  color: $red;
+  color: $yellow;
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
