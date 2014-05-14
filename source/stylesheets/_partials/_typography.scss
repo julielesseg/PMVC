@@ -1,9 +1,9 @@
+/* nav, banner and intro */
+
 .nav{
 	color: $blue;
 	font-size: 1em;
 	font-family: $demi;
-	
-	
 }
 
 h1{
@@ -25,6 +25,8 @@ h1{
 	font-family: $slab;
 	line-height: 2.25em;
 }
+
+/* main content */
 
 h2{
 	color: $blue;
@@ -51,6 +53,8 @@ p{
 	font-family: $slab;
 	line-height: 1.5em;
 }
+
+/* global */
 
 .buttons{
 	color: $blue;
