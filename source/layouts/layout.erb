@@ -16,15 +16,28 @@
   <body class="<%= page_classes %>">
 	  <div class="container_12">
 		  <nav>
+		  	<%= link_to(image_tag("/images/logo.svg", :alt => "logo", :title => "Home"), "/") %>
 		  	<%= link_to "about", "/about.html", class: "nav-link" %>
-			<%= link_to "about", "/events.html", class: "nav-link" %>
-			<%= link_to "events", "/involved.html", class: "nav-link" %>
-			<%= link_to "get involved", "/about.html", class: "nav-link" %>
-			<%= link_to "resources", "/about.html", class: "nav-link" %>
-			<%= link_to "donate", "/about.html", class: "nav-link" %>
+			<%= link_to "events", "/events.html", class: "nav-link" %>
+			<%= link_to "get involved", "/involved.html", class: "nav-link" %>
+			<%= link_to "resources", "/resources.html", class: "nav-link" %>
+			<%= link_to "donate", "", class: "nav-link" %>
 		  </nav>
 	  </div>
     <%= yield %>
-
+    <div class="global">
+	    <div class="global-text container_12">
+		    
+	    </div>
+    </div>
+    <div class="container_12">
+	    <footer>
+	    	<div class=
+		    <%= link_to "donate", "", class: "nav-link offset_1 grid_2" %>
+			<%= link_to(image_tag("/images/logo.svg", :alt => "logo", :title => "Home"), "/") %>
+			<%= link_to(image_tag("/images/logo.svg", :alt => "logo", :title => "Home"), "/") %>
+			
+	    </footer>
+    </div>
   </body>
 </html>
