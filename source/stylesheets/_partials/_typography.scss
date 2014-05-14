@@ -1,13 +1,77 @@
 .nav{
 	color: $blue;
-	font-family: franklin-gothic-demi, tahoma, sans-serif;
 	font-size: 1em;
+	font-family: $demi;
 	
 	
 }
 
 h1{
 	color: $black;
-	font-family: museo-slab, serif;
 	font-size: 2.5em;
+	font-family: $slab;
+}
+
+.banner-txt{
+	color: $black;
+	font-size: 1.3em;
+	font-family: $slab;
+	line-height: 2.5em;
+}
+
+.intro-txt{
+	color: $black;
+	font-size: 1.6em;
+	font-family: $slab;
+	line-height: 2.25em;
+}
+
+h2{
+	color: $blue;
+	font-size: 4em;
+	font-family: $demi-compressed;
+}
+
+.section-txt{
+	color: $black;
+	font-size: 1.25em;
+	font-family: $slab-italic;
+	line-height: 1.75em;
+}
+
+.title-txt{
+	color: $blue;
+	font-size: 1.5em;
+	font-family: $demi;
+}
+
+p{
+	color: $black;
+	font-size: 1em;
+	font-family: $slab;
+	line-height: 1.5em;
+}
+
+.buttons{
+	color: $blue;
+	font-size: 1.5em;
+	font-family: $demi-compressed;
+}
+
+.voices-title{
+	color: $black;
+	font-size: 1.25em;
+	font-family: $demi;
+}
+
+.global-txt{
+	color: $black;
+	font-size: 1.5em;
+	font-color: $black;
+}
+
+.footer-txt{
+	color: $black;
+	font-size: .75em;
+	font-family: $book;
 }
