@@ -8,6 +8,19 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	margin: 0 2% 0 0;
+	letter-spacing: 0.5px;
+}
+
+.donate-link{
+	color: $white;
+	font-size: 1em;
+	font-family: $demi;	
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 2% 0 0;
+	background-color: $blue;
+	padding: 10px 15px;
+	letter-spacing: 0.5px;
 }
 
 h1{
