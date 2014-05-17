@@ -4,11 +4,13 @@
 	color: $blue;
 	font-size: 1em;
 	font-family: $demi;
-	border-top: solid .2em $blue;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin: 0 2% 0 0;
 	letter-spacing: 0.5px;
+}
+.nav-link:hover{
+	border-top: solid .2em $blue;
 }
 
 .donate-link{
@@ -17,7 +19,6 @@
 	font-family: $demi;	
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 0 2% 0 0;
 	background-color: $blue;
 	padding: 10px 15px;
 	letter-spacing: 0.5px;
