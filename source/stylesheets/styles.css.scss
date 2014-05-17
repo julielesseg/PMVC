@@ -5,6 +5,19 @@
 	margin: 0;
 	width: 100%;
 	height: 560px;
+	
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.main-content{
+	background-color: $white;
+}
+
+.content-section{
+	margin-top: 4.3em;
 }
 
 .global{
