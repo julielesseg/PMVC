@@ -1,7 +1,6 @@
 @import "_partials/*";
 
 .banner{
-	background-color: $gray;
 	margin: 0;
 	width: 100%;
 	height: 560px;
@@ -16,6 +15,7 @@
 		height: 200px;
 		position: absolute;
 		z-index: 10;
+		width: 100%;
 	}
 }
 
