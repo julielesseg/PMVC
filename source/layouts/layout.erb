@@ -9,7 +9,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "PMVC" %></title>
     
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= stylesheet_link_tag "normalize", "all", "styles" %>
     <%= javascript_include_tag  "all" %>
   </head>
   
@@ -30,17 +30,17 @@
 		    
 	    </div>
     </div>
-    <div class="container_12">
-	    <footer>
-	    	<div class="button">
-		    <%= link_to "donate", "", class: "nav-link offset_1 grid_2" %>
+    <div class="footer">
+    	<div class="container_12">
+	    	<div class="button grid_2">
+		   	 	<%= link_to "donate", "", class: "nav-link grid_2" %>
 	    	</div>
 	    	<div class="social">
-			<%= link_to(image_tag("/images/logo.svg", :alt => "facebook icon", :title => "facebook icon"), "/") %>
-			<%= link_to(image_tag("/images/logo.svg", :alt => "meetup icon", :title => "meetup icon"), "/") %>
+				<%= link_to(image_tag("/images/logo.svg", :alt => "facebook icon", :title => "facebook icon"), "/") %>
+				<%= link_to(image_tag("/images/logo.svg", :alt => "meetup icon", :title => "meetup icon"), "/") %>
 	    	</div>
 	    	<p class="footer-txt push_4 grid_4">VETERANS CONNECTION 2014 ALL RIGHTS RESERVED.</p>
-	    </footer>
+    	</div>
     </div>
   </body>
 </html>
