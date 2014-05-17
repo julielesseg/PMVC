@@ -83,6 +83,12 @@ p{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	border: 3px $white solid;
+	padding: 10px;
+}
+
+.donate-button:hover{
+	color: $black;
+	background-color: $white;
 }
 
 .footer-txt{
