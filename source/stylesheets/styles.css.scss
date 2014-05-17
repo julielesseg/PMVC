@@ -1,6 +1,10 @@
 @import "_partials/*";
 
-
+.banner{
+	background-color: $gray;
+	margin: 0;
+	height: 560px;
+}
 
 .footer{
 	background-color: $black;
