@@ -24,6 +24,12 @@
 	letter-spacing: 0.5px;
 }
 
+.donate-link:hover{
+	color: $blue;
+	background-color: $white;
+	outline: 3px $blue solid;
+}
+
 h1{
 	color: $black;
 	font-size: 2.5em;
