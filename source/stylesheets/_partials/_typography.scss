@@ -108,9 +108,13 @@ p{
 	padding: 10px;
 }
 
-.donate-button:hover{
+.donate-button a{
+	text-decoration: none;
+	color: $white;
+}
+
+.donate-button a:hover{
 	color: $black;
-	background-color: $white;
 }
 
 .footer-txt{
