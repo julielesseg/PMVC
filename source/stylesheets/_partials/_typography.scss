@@ -106,14 +106,10 @@ p{
 	text-align: center;
 	border: 3px solid $white;
 	padding: 10px;
-}
-
-.donate-button a{
 	text-decoration: none;
-	color: $white;
 }
 
-.donate-button a:hover{
+.donate-button:hover{
 	color: $black;
 	background-color: $white;
 }
