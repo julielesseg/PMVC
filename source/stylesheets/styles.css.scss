@@ -17,7 +17,7 @@
 	}
 	.banner-box{
 		background-color: $blue;
-		opacity: .5;
+/* 		opacity: .5; */
 		height: 200px;
 		margin: 155px 0;
 		position: absolute;
@@ -67,6 +67,7 @@
 	
 	.global-button{
 		border: 1px solid $white;
+		margin: 0;
 	}
 	
 	.global-button:hover{
