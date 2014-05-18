@@ -87,15 +87,23 @@ p{
 /* global bottom */
 
 .global-txt{
-	color: $black;
-	font-size: 1.5em;
-	font-color: $black;
-}
-
-.buttons{
 	color: $white;
 	font-size: 1.5em;
+	font-color: $black;
+	font-family: $slab;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+.global-button{
+	color: $white;
+	font-size: 1.75em;
 	font-family: $demi-compressed;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
 	
 }
 
@@ -115,6 +123,7 @@ p{
 	font-family: $slab;
 	line-height: 1.5em;
 }
+
 
 
 /* Footer */

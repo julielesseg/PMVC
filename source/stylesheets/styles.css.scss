@@ -46,9 +46,37 @@
 .global{
 	background-color: $blue;
 	width: 100%;
-	height: 200px;
-	padding-top: 50px;
+	height: 225px;
+	padding-top: 70px;
 	clear: both;
+
+	.voices{
+		border-top: 1px solid $white;
+		border-bottom: 1px solid $white;
+	}
+	
+	.star{
+		clear: both;
+		padding-top: 25px;
+	}
+	
+	.voices-title{
+		
+	}
+	
+	.voices-txt{
+		margin-top: 0;
+	}
+	
+	
+	.global-button{
+		border: 1px solid $white;
+	}
+	
+	.global-button:hover{
+		background-color: $white;
+		color: $blue;
+	}
 }
 
 .footer{
@@ -58,8 +86,10 @@
 	height: 75px;
 	clear: both;
 	padding-top: 50px;
+
+	donate-button a{
+		text-decoration: none;
+	}
+
 }
 
-donate-button a{
-	text-decoration: none;
-}
