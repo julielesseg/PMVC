@@ -8,20 +8,26 @@
 		width: 100%;
 		height: auto;
 	}
+	
 	.banner-box{
 		background-color: $blue;
 /* 		opacity: .5; */
-		height: 300px;
-		margin: 100px 0;
+		margin: 10% 0;
 		position: absolute;
 		z-index: 10;
+		padding-top: 0 1%;
+		
+		.tag{
+			padding-top: 20px;
+		}
+	
+	
+		.rule{
+			border-bottom: 1px $white solid;
+		}
+	
 	}
 	
-	.tag{
-		padding-top: 20px;
-	}
-	
-	.rule{
-		border-bottom: 1px $white solid;
-	}
+
+
 }
