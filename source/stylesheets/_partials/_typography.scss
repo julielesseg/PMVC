@@ -2,9 +2,15 @@ body{
 	font-size: 100%;
 }
 
+h1{
+	margin: 0;
+}
+
 p{
 	margin: 0;
 }
+
+
 
 /* nav, banner and intro */
 
@@ -44,6 +50,7 @@ h1{
 	color: $white;
 	font-size: 2.5em;
 	font-family: $slab;
+	margin: 1% 0;
 }
 
 .banner-txt{
