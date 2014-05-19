@@ -1,0 +1,23 @@
+.banner{
+	margin: 0;
+	height: 560px;
+	overflow: hidden;
+	text-align: center;
+	
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.banner-box{
+		background-color: $blue;
+/* 		opacity: .5; */
+		height: 300px;
+		margin: 100px 0;
+		position: absolute;
+		z-index: 10;
+	}
+	
+	.tag{
+		padding-top: 20px;
+	}
+}
