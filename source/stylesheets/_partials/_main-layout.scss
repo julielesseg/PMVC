@@ -1,7 +1,7 @@
 .blue-star{
 	position: absolute;
 	left: 40%;
-	top: 74%;
+	top: 630px;
 	width: 15%;
 }
 
@@ -10,6 +10,10 @@
 }
 
 .black-rule{
+	border-bottom: $black 1px solid;
+}
+
+hr{
 	border-bottom: $black 1px solid;
 }
 
