@@ -188,13 +188,20 @@ p{
 	letter-spacing: 2px;
 	text-align: center;
 	background-color: $blue;
+	border: 2px solid $blue;
 	
 }
 
-.rsvp-button:hover{
-	color: $black;
+.rsvp-button:hover, .rsvp-button a:hover{
+	color: $blue;
 	background-color: $white;
+	border: 2px solid $blue;
 }
+
+.rsvp-button a{
+	color: $white;
+}
+
 
 .seemore-txt{
 	font-size: 1.5em;
