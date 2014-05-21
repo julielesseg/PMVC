@@ -9,11 +9,6 @@
 	overflow: hidden;
 	text-align: center;
 	
-	img{
-		width: 100%;
-		height: auto;
-	}
-	
 	.banner-box{
 		background-color: $blue-banner;
 /* 		opacity: .5; */
@@ -21,19 +16,13 @@
 		position: absolute;
 		z-index: 10;
 		padding: 3% 0;
-		
+		}
 		.tag{
 			padding-top: 20px;
 		}
 	
-	
 		.rule{
 			border-bottom: 1px $white solid;
 		}
-	
-	}
-	
-
-
 }
 	
