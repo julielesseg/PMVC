@@ -75,6 +75,7 @@ h2{
 	color: $blue;
 	font-size: 4em;
 	font-family: $demi-compressed;
+	text-transform: uppercase;
 }
 
 .section-txt{
@@ -202,5 +203,12 @@ p{
 	font-family: $slab;
 	font-style: italic;
 	
+}
+
+.email-txt{
+	color: $blue;
+	font-size: 1.5em;
+	font-family: $slab;
+	font-style: italic;
 }
 
