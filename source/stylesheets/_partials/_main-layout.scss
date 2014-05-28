@@ -14,9 +14,13 @@
 
 .star-mission {
 
-	width: 50%;
-	padding-left: 150px;
+	img {
+		width: 100px;
+		display: block;
+		margin: auto;
+	}
 }
+
 
 .black-rule{
 	border-bottom: $black 1px solid;
