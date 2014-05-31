@@ -24,7 +24,7 @@
 }
 .slidesjs-pagination li a {
     background-image: url("/images/stars.png");
-    background-position: 0 0;
+    background-position: -29px 0;
     display: block;
     float: left;
     height: 15px;
@@ -33,10 +33,10 @@
     width: 29px;
 }
 .slidesjs-pagination li a.active, .slidesjs-pagination li a.active:hover {
-    background-position: -29px 0;
+    background-position: 0 0;
 }
 .slidesjs-pagination li a:hover {
-    background-position: -58px 0;
+    background-position: 0 0;
 }
 
 .content-padding{
