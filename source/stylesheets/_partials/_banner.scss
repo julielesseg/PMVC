@@ -6,21 +6,32 @@
 .banner{
 	margin: 0;
 	height: 560px;
-	overflow: hidden;
 	text-align: center;
 	position: relative;
-	
+	background-image: url(../../images/city.jpg);
+	.banner-wrapper {
+		height: 560px;
+	}	
 	.banner-box{
 		background-color: $blue-banner;
-		margin: 4% 0;
-		height: 60%;
+		margin: 130px 0;
+		height: 300px;
 		position: absolute;
 		z-index: 10;
-		padding: 2% 0;
+		box-sizing: border-box;
+		padding: 3% 0;
 		}
+	.banner-txt {
+		margin: 20px;
+	}
 	.rule{
 		border-bottom: 1px $white solid;
 		}
+		
+	img {
+		overflow: hidden;
+
+	}
 }
 .index{
 	.banner{
