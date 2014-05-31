@@ -11,6 +11,32 @@
 	display: none;
 }
 
+.slidesjs-pagination {
+    float: right;
+    list-style: none outside none;
+    margin: 7px 0 0;
+}
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+.slidesjs-pagination li a {
+    background-image: url("/images/star.png");
+    background-position: 0 0;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 13px;
+    width: 79px;
+}
+.slidesjs-pagination li a.active, .slidesjs-pagination li a.active:hover {
+    background-position: 0 -13px;
+}
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px;
+}
+
 .content-padding{
 	height: auto;
 }
