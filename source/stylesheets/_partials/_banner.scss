@@ -28,7 +28,7 @@
 	position: relative;
 	overflow: hidden;
 	
-	.banner-wrapper {
+	.banner-wrapper{
 		height: 560px;
 	}	
 	.banner-box{
@@ -39,18 +39,44 @@
 		box-sizing: border-box;
 		padding: 2% 0;
 		}
-	.banner-txt {
+	.banner-txt{
 		margin: 20px;
 	}
 	.rule{
 		border-bottom: 1px $white solid;
 		}
 		
-	img {
+	img{
 		overflow: hidden;
 
 	}
 }
+
+.banner-home{
+	margin: 0;
+	height: 560px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../../images/city.jpg);
+	
+	.banner-wrapper{
+		height: 560px;
+	}
+	.banner-box{
+		background-color: $blue-banner;
+		margin: 70px 0;
+		position: absolute;
+		z-index: 10;
+		box-sizing: border-box;
+		padding: 1.8% 0;
+	}
+	.stay-connected{
+		width: 75%;
+	}
+	
+}
+
 .index{
 	.banner{
 		background-image: url(../../images/city.jpg);
