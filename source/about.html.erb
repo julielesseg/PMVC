@@ -50,7 +50,8 @@ title: About PMVC
 			<div>
 			<%= image_tag("davidd.jpg", :alt => "David Dedrickson", class:"bio-pic") %>
 			</div>
-			<div class="email-txt alpha push_2 grid_3 omega">ddedrickson@folktime.org</div>
+			<div class="email-txt alpha push_2 grid_3 omega">
+			<%= mail_to("ddedrickson@folktime.org") %></div>
 			<h3 class="title-txt alpha push_6 grid_5">PATTI JAY</h3>
 			<div class="section-txt alpha prefix_6 grid_5 suffix_1">served as an Aerospace Medical
 Technician with the 142nd of theOregon Air National Guard from 1979-1986.</div>
@@ -59,7 +60,7 @@ current! She works as a Peer Support Specialist for FolkTime and a Veteran Peer 
 Portland Metro Veteran Connection. She is honored to be a part of an organization focusing
 on keeping our veterans connected with each other in our community. She looks forward to meeting more folks and having fun in our city!</p></div>
 			<div class="email-txt prefix_9 grid_3 omega page-margin">
-			pjay@folktime.org</div>
+			<%= mail_to("pjay@folktime.org") %></div>
 			
 		
 	</div>
