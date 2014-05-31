@@ -219,6 +219,19 @@ li{
 }
 
 
+.submit-button{
+	color: $white;
+	font-size: 1.75em;
+	font-family: $demi-compressed;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: center;
+	background-color: $blue;
+	border: 2px solid $blue;
+	
+}
+
 .seemore-txt{
 	font-size: 1.5em;
 	font-color: $black;
