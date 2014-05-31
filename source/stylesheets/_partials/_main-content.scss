@@ -22,20 +22,20 @@
     margin: 0 1px;
 }
 .slidesjs-pagination li a {
-    background-image: url("/images/star.png");
+    background-image: url("/images/stars.png");
     background-position: 0 0;
     display: block;
     float: left;
-    height: 0;
+    height: 30px;
     overflow: hidden;
     padding-top: 13px;
-    width: 79px;
+    width: 50px;
 }
 .slidesjs-pagination li a.active, .slidesjs-pagination li a.active:hover {
-    background-position: 0 -13px;
+    background-position: -50px 0;
 }
 .slidesjs-pagination li a:hover {
-    background-position: 0 -26px;
+    background-position: -100px 0;
 }
 
 .content-padding{
