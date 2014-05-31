@@ -6,23 +6,19 @@
 .banner{
 	margin: 0;
 	height: 560px;
-	overflow: hidden;
 	text-align: center;
+	position: relative;
 	
 	.banner-box{
 		background-color: $blue-banner;
-/* 		opacity: .5; */
-		margin: 12% 0;
+		margin: 2% 0;
+		height: 50%;
 		position: absolute;
 		z-index: 10;
-		padding: 3% 0;
+		padding: 2% 0;
 		}
-		.tag{
-			padding-top: 20px;
-		}
-	
-		.rule{
-			border-bottom: 1px $white solid;
+	.rule{
+		border-bottom: 1px $white solid;
 		}
 }
 .index{
