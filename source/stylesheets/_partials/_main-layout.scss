@@ -1,39 +1,31 @@
 .intro{
 	position: relative;
-	margin: 120px 0 0 0;
+/* 	margin-top: 120px; */
 	height: auto;
 }
 
 .star-wrapper {
-	
-}
+	position: relative;
 
-.blue-star{
-	width: 200px;
-	margin: -120px 0 100px 0;
-	margin: auto;
-	position: absolute;
-	top: 0;
-}
-
-
-
-.star-mission {
-
-	img {
-		width: 100px;
-		display: block;
-		margin: auto;
-		margin-top: 10%;
+	.blue-star{
+		position: absolute;
+		top: 0;
 	}
+
 }
 
 
-.black-rule{
+
+.intro-txt {
+	top: -10px;
+}
+
+
+.black-rule {
 	border-bottom: $black 1px solid;
 }
-
-.blue-rule{
+ 
+.blue-rule {
 	border-top: $blue .3em solid;
 }
 
