@@ -10,10 +10,16 @@
 	text-align: center;
 	position: relative;
 	
+	.banner-wrapper{
+		height: 560px;
+		position: relative;
+		
+	}
+	
 	.banner-box{
 		background-color: $blue-banner;
-		margin: 4% 0;
-		height: 60%;
+		margin: 10% 0;
+		height: 80%;
 		position: absolute;
 		z-index: 10;
 		padding: 2% 0;
