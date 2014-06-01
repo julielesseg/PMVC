@@ -14,7 +14,50 @@ $(document).ready(function(){
 		}
 		});
 		
-	}); 
+
 	
+	function pickNewStatement(){
+        var randomNum = Math.floor(Math.random() * 5);
+        if(randomNum == 0){
+       	console.log('Statement 1');
+        $('#voices-content1').show();
+        }
+        
+        else if(randomNum == 1){
+        $('#voices-content2').show();
+        }
+        
+        else if(randomNum == 2){
+        $('#voices-content3').show();
+        }
+        
+        else if(randomNum == 3){
+        $('#voices-content4').show();
+	    }  
+        
+        else if(randomNum == 4){
+        $('#voices-content5').show();
+        }
+      
+      };
+      
+      window.onload = pickNewStatement;
+    });
 	
+/*
+	
+	var quotes = $(".voices-txt");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(500)
+            .delay(4000)
+            .fadeOut(500, showNextQuote);
+    }
+
+    showNextQuote();
+	
+*/
 });
