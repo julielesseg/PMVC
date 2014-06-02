@@ -10,6 +10,16 @@ nav{
 		margin: 25px 0 0 0;
 	}
 	
+	@include breakpoint($small-width){
+		nav{
+			height: 100%;
+		}
+		
+		.nav-links{
+			display:none;
+		}
+		
+	}
 
 }
 
