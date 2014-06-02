@@ -10,10 +10,21 @@ $demi: "franklin-gothic-urw", "tahoma", sans-serif;
 $demi-compressed: "franklin-gothic-urw-comp", "tahoma", sans-serif;
 
 
-/*
-$media-lg: max-width 1000px;
-$media-md: min-width 800px;
-$media-sm
-*/
+$breakpoint-small-width: 320px;
+$breakpoint-small-width-em: 20em;
+
+$breakpoint-medium-width: 760px;
+$breakpoint-medium-width-em: 48em;
+
+$breakpoint-large-width: 960px;
+$breakpoint-large-width-em: 60em;
+
+$breakpoint-xlarge-width: 1280px;
+$breakpoint-xlarge-width-em: 80em;
+
+
+
+
+
 
 

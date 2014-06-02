@@ -1,5 +1,5 @@
 nav{
-	height: 80px;
+	height: 65px;
 	padding: 15px 0 10px 0;
 	text-align: right;	
 	img{
@@ -7,6 +7,31 @@ nav{
 		height: auto;
 	}
 	.nav-links{
-		margin: 35px 0 0 0;
+		margin: 25px 0 0 0;
+	}
+	
+	@include breakpoint($breakpoint-small-width){
+		
+		.nav-links{
+			display: none;
+		}
+		
+	}
+	
+	@include breakpoint($breakpoint-medium-width){
+		
+		.nav-links{
+			display: block;
+			margin: 10px 0 0 0;
+		}
+		
+	}
+	
+	@include breakpoint($breakpoint-large-width){
+		
+		.nav-links{
+			margin: 20px 0 0 0;
+		}
+		
 	}
 }
