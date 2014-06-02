@@ -4,90 +4,92 @@ body{
 }
 
 h1{
+	margin: 1.25% 0;
 	color: $white;
 	font-size: 2.5em;
 	font-family: $slab;
-	margin: 1.25% 0;
 }
 
 h2{
+	margin: 0.3em 0;
 	color: $blue;
+	text-transform: uppercase;
 	font-size: 4em;
 	font-family: $demi-compressed;
-	text-transform: uppercase;
-	margin: 0.3em 0;
+	letter-spacing: 2px;
 }
 
 h3{
 	color: $blue;
+	font-weight: 500;
 	font-size: 1.5em;
 	font-family: $demi;
-	font-weight: 500;
 }
 
 h4{
+	margin: 0 0 .4em 0;
 	color: $white;
-	font-size: 1.25em;
-	font-family: $demi;
 	text-transform: uppercase;
 	font-weight: 500;
-	margin: 0 0 .4em 0;
+	font-size: 1.25em;
+	font-family: $demi;
+	letter-spacing: 4px;
 }
 
 
 p{
+	margin: 0 0 .75em 0;
 	color: $black;
 	font-weight: 300;
 	font-size: 1em;
 	font-family: $slab;
 	line-height: 1.5em;
-	margin: 0 0 .75em 0;
 }
 
 a{
-	text-decoration: none;
 	color: $blue;
+	text-decoration: none;
 }
 
 li{
-	font-family: $slab;
 	color: $black;
 	font-weight: 300;
+	font-family: $slab;
 }
 
 
 /* nav, banner and intro */
 
 .nav-link{
-	color: $blue;
-	font-size: 1.1em;
-	font-family: $demi;
-	text-transform: uppercase;
-	text-decoration: none;
 	margin: 0 5% 0 0;
+	color: $blue;
+	text-decoration: none;
+	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	font-weight: 500;
+	font-size: 1.1em;
+	font-family: $demi;
 }
 .nav-link:hover{
 	border-top: solid .2em $blue;
 }
 
 .donate-link{
-	color: $white;
-	font-size: 1em;
-	font-family: $demi;	
+	padding: 10px 15px;
+	background-color: $blue;
+	color: $white;	
 	text-decoration: none;
 	text-transform: uppercase;
-	background-color: $blue;
-	padding: 10px 15px;
 	letter-spacing: 0.5px;
 	font-weight: 500;
+	font-size: 1em;
+	font-family: $demi;
 }
 
 .donate-link:hover{
-	color: $blue;
-	background-color: $white;
 	outline: 3px $blue solid;
+	background-color: $white;
+	color: $blue;
 }
 
 .banner-txt{
@@ -98,13 +100,13 @@ li{
 }
 
 .intro-txt{
+	margin: 0 0 80px 0;
 	color: $black;
+	text-align: center;
+	font-weight: 500;
 	font-size: 2.5em;
 	font-family: $slab;
-	font-weight: 500;
 	line-height: 1.75em;
-	text-align: center;
-	margin: 0 0 80px 0;
 }
 
 /* main content */
@@ -127,22 +129,22 @@ li{
 
 .global-txt{
 	color: $white;
-	font-size: 1.5em;
-	font-color: $black;
-	font-family: $slab;
-	font-style: italic;
 	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: $slab;
+	font-color: $black;
 	
 }
 
 .global-button{
 	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
 	font-size: 1.75em;
 	font-family: $demi-compressed;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 2px;
-	text-align: center;
 	
 }
 
@@ -161,29 +163,30 @@ li{
 /* Footer */
 
 .donate-button{
-	color: $white;
-	font-family: $demi;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	text-align: center;
-	border: 3px solid $white;
 	padding: 10px;
+	border: 3px solid $white;
+	color: $white;
+	text-align: center;
 	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	font-weight: 500;
+	font-size: 1.5em;
+	font-family: $demi;
 }
 
 .donate-button:hover{
-	color: $black;
 	background-color: $white;
+	color: $black;
 }
 
 .footer-txt{
+	margin: 0;
 	color: $white;
+	text-align: center;
+	font-weight: 300;
 	font-size: .75em;
 	font-family: $demi;
-	text-align: center;
-	margin: 0;
-	font-weight: 300;
 }
 
 
@@ -196,22 +199,22 @@ li{
 }
 
 .rsvp-button{
+	border: 2px solid $blue;
+	background-color: $blue;
 	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
 	font-size: 1.75em;
 	font-family: $demi-compressed;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 2px;
-	text-align: center;
-	background-color: $blue;
-	border: 2px solid $blue;
 	
 }
 
 .rsvp-button:hover, .rsvp-button a:hover{
-	color: $blue;
-	background-color: $white;
 	border: 2px solid $blue;
+	background-color: $white;
+	color: $blue;
 }
 
 .rsvp-button a{
@@ -220,29 +223,29 @@ li{
 
 
 .submit-button{
+	border: 2px solid $blue;
+	background-color: $blue;
 	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
 	font-size: 1.75em;
 	font-family: $demi-compressed;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 2px;
-	text-align: center;
-	background-color: $blue;
-	border: 2px solid $blue;
 	
 }
 
 .seemore-txt{
-	font-size: 1.5em;
-	font-color: $black;
-	font-family: $slab;
 	font-style: italic;
+	font-size: 1.5em;
+	font-family: $slab;
+	font-color: $black;
 	
 }
 
 .email-txt{
 	color: $blue;
+	font-style: italic;
 	font-size: 1.5em;
 	font-family: $slab;
-	font-style: italic;
 }
