@@ -102,11 +102,20 @@ li{
 .intro-txt{
 	margin: 0 0 80px 0;
 	color: $black;
+<<<<<<< HEAD
 	text-align: center;
 	font-weight: 500;
 	font-size: 2.5em;
 	font-family: $slab;
 	line-height: 1.75em;
+=======
+	font-size: 2.2em;
+	font-family: $slab;
+	font-weight: 500;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 0 0 80px 0;
+>>>>>>> FETCH_HEAD
 }
 
 /* main content */
@@ -229,9 +238,16 @@ li{
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+<<<<<<< HEAD
 	font-weight: 400;
 	font-size: 1.75em;
 	font-family: $demi-compressed;
+=======
+	text-align: center;
+	background-color: $blue;
+	border: 2px solid $blue;
+	box-sizing: border-box;
+>>>>>>> FETCH_HEAD
 	
 }
 
