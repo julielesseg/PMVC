@@ -1,5 +1,6 @@
 .connect-slides{
 	width: 100%;
+	margin-top: 1em;
 	
 	img{
 		width: 100%;
@@ -21,11 +22,13 @@
     list-style: none outside none;
     margin: 7px 0 0;
 }
+
 .slidesjs-pagination li {
     float: left;
     margin: 0 1px;
     line-height: 100px;
 }
+
 .slidesjs-pagination li a {
     background-image: url("/images/stars.png");
     background-position: -29px 0;
@@ -36,15 +39,27 @@
     padding-top: 13px;
     width: 29px;
 }
+
 .slidesjs-pagination li a.active, .slidesjs-pagination li a.active:hover {
     background-position: 0 0;
 }
+
 .slidesjs-pagination li a:hover {
     background-position: 0 0;
 }
 
+.photoTag{
+	background-color: $blue;
+	color: $white;
+	font-family: $demi-compressed;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 2em;
+	text-align: center;
+}
+
 .main-content .intro-txt{
-	margin-top: 20px;
+	margin-top: 1em;
 }
 
 .content-padding{

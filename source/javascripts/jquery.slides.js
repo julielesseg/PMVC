@@ -141,14 +141,14 @@
         playButton = $("<a>", {
           "class": "slidesjs-play slidesjs-navigation",
           href: "#",
-          title: "Play",
-          text: "Play"
+          title: "",
+          text: ""
         }).appendTo($element);
         stopButton = $("<a>", {
           "class": "slidesjs-stop slidesjs-navigation",
           href: "#",
-          title: "Stop",
-          text: "Stop"
+          title: "",
+          text: ""
         }).appendTo($element);
         playButton.click(function(e) {
           e.preventDefault();

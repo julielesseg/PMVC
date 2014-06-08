@@ -205,7 +205,7 @@ li{
 }
 
 .rsvp-button{
-	border: 2px solid $blue;
+	border: 3px solid $blue;
 	background-color: $blue;
 	color: $white;
 	text-align: center;
@@ -218,7 +218,7 @@ li{
 }
 
 .rsvp-button:hover, .rsvp-button a:hover{
-	border: 2px solid $blue;
+	border: 3px solid $blue;
 	background-color: $white;
 	color: $blue;
 }
@@ -230,9 +230,7 @@ li{
 
 .submit-button{
 	box-sizing: border-box;
-	border: 2px solid $blue;
-	border: 2px solid $blue;
-	background-color: $blue;
+	border: 3px solid $blue;
 	background-color: $blue;
 	color: $white;
 	text-align: center;
@@ -242,8 +240,18 @@ li{
 	font-family: $demi-compressed;
 	font-weight: 400;
 	text-align: center;
-	
+	padding: 5px 0;
 }
+
+.submit-button a{
+	color: $white;
+}
+
+.submit-button:hover{
+	background-color: $white;
+	color: $blue;
+}
+
 
 .seemore-txt{
 	font-style: italic;
