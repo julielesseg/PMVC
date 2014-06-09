@@ -369,4 +369,14 @@
 	width: 100%;
 	float: none;
 	}
+	
+	@include breakpoint($large-width){
+		width: 100%;
+		float: none;
+	}
+	
+	@include breakpoint($xlarge-width){
+		width: 100%;
+		float: none;
+	}
 }
