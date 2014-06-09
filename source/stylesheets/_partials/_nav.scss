@@ -19,6 +19,9 @@ nav{
 			display:none;
 		}
 		
+		.active{
+			border-top: solid .2em $blue;
+		}
 	}
 
 }

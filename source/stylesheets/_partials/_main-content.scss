@@ -60,6 +60,7 @@
 
 .main-content .intro-txt{
 	margin-top: 1em;
+	margin-bottom: 0.5em;
 }
 
 .content-padding{
@@ -69,8 +70,6 @@
 
 .page-margin{
 	margin-bottom: 5em;
-
-
 }
 
 .black-rule{
@@ -103,6 +102,7 @@ input{
 	
 form {
 	width: 100%;
+	margin-left: -50px;
 }
 form ul li {
 	list-style: none;
