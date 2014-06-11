@@ -19,7 +19,6 @@ $(document).ready(function(){
 	function pickNewStatement(){
         var randomNum = Math.floor(Math.random() * 5);
         if(randomNum == 0){
-       	console.log('Statement 1');
         $('#voices-content1').show();
         }
         
@@ -38,13 +37,16 @@ $(document).ready(function(){
         else if(randomNum == 4){
         $('#voices-content5').show();
         }
+        
+        else if(randomNum == 5){
+        $('#voices-content6').show();
+        }
       
       };
       
       window.onload = pickNewStatement;
     });
 	
-/*
 	
 	var quotes = $(".voices-txt");
     var quoteIndex = -1;
@@ -58,6 +60,8 @@ $(document).ready(function(){
     }
 
     showNextQuote();
-	
-*/
+
+	$(function() {
+		var current_page = window.location.href; // returns the full URL
+
 });
