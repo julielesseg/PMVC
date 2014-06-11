@@ -14,7 +14,7 @@ $(document).ready(function(){
 		}
 		});
 		
-		$('#voices-content1').show();
+	$('#voices-content1').show();
 		
 });
 	
