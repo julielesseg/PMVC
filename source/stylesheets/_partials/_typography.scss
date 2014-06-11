@@ -22,8 +22,10 @@ h2{
 h3{
 	color: $blue;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-family: $demi;
+	margin: -.2em 0 0 0;
+	
 }
 
 h4{
@@ -260,6 +262,7 @@ li{
 .email-txt{
 	color: $blue;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-family: $slab;
+	padding-top: .3em;
 }
