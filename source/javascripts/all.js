@@ -14,38 +14,9 @@ $(document).ready(function(){
 		}
 		});
 		
-
-	
-	function pickNewStatement(){
-        var randomNum = Math.floor(Math.random() * 5);
-        if(randomNum == 0){
-        $('#voices-content1').show();
-        }
-        
-        else if(randomNum == 1){
-        $('#voices-content2').show();
-        }
-        
-        else if(randomNum == 2){
-        $('#voices-content3').show();
-        }
-        
-        else if(randomNum == 3){
-        $('#voices-content4').show();
-	    }  
-        
-        else if(randomNum == 4){
-        $('#voices-content5').show();
-        }
-        
-        else if(randomNum == 5){
-        $('#voices-content6').show();
-        }
-      
-      };
-      
-      window.onload = pickNewStatement;
-    });
+		$('#voices-content1').show();
+		
+});
 	
 	
 	var quotes = $(".voices-txt");
