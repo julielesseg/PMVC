@@ -1,14 +1,14 @@
 .global{
-	background-color: $blue;
+	clear: both;
+	padding-top: 70px;
 	width: 100%;
 	height: 225px;
-	padding-top: 70px;
-	clear: both;
+	background-color: $blue;
 
 	.voices{
+		padding: 1% 0;
 		border-top: 3px solid $white;
 		border-bottom: 3px solid $white;
-		padding: 1% 0;
 	
 	.star{
 		clear: both;
@@ -27,8 +27,8 @@
 	
 	
 	.global-button{
-		border: 3px solid $white;
 		margin: 0;
+		border: 3px solid $white;
 	}
 	
 	.global-button:hover{
