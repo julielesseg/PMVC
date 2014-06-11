@@ -141,3 +141,22 @@ ul{
 .float {
 	float: left;
 }
+
+.resources ul{
+	padding: 1px;
+}
+
+
+.resources li{
+	list-style: none outside none;
+}
+
+.resources li a{
+	color: $blue;
+}
+
+.resources li a:hover{
+	font-style: italic;
+	color: $black;
+}
+
