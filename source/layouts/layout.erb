@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+   <!--  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"> -->
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -22,8 +22,8 @@
   
   <body class="<%= page_classes %>">
 		  <nav class="container_12">
-		  	<%= link_to(image_tag("/images/logo.svg", :alt => "logo", :title => "Home"), "/", class: "alpha prefix_1 grid_3") %>
-		  	<div class="nav-links grid_7 suffix_1 omega">
+		  	<%= link_to(image_tag("/images/logo.svg", :alt => "logo", :title => "Home"), "/", class: "alpha grid_3") %>
+		  	<div class="nav-links grid_9 omega">
 			  	<%= link_to "about", "/about.html", class: "nav-link" %>
 				<%= link_to "events", "/events.html", class: "nav-link" %>
 				<%= link_to "get involved", "/involved.html", class: "nav-link" %>
@@ -57,12 +57,12 @@
     </div>
     <div class="footer">
     	<div class="container_12">
-	    	<div class="donate">
-		   	 	<%= link_to "donate", "", class: "push_1 grid_2 donate-button alpha" %>
+	    	<div class="donate prefix_1 grid_9">
+		   	 	<%= link_to "donate", "", class: "grid_3 donate-button alpha" %>
 
 
 	    	</div>
-	    	<div class="social grid_2 push_8 omega">
+	    	<div class="social grid_1 omega">
 				<%= link_to(image_tag("/images/social-fb.svg", :alt => "facebook icon", :title => "facebook icon"), "/", class: "social")%>
 				<%= link_to(image_tag("/images/social-meet.svg", :alt => "meetup icon", :title => "meetup icon"), "/", class: "social")%>
 	    	</div>
