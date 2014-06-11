@@ -152,11 +152,11 @@ ul{
 }
 
 .resources li a{
-	color: $blue;
+	color: $black;
+	font-style: italic;
 }
 
 .resources li a:hover{
-	font-style: italic;
-	color: $black;
+	color: $blue;
 }
 
