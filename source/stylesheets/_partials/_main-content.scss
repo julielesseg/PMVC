@@ -1,6 +1,5 @@
 .blue-bar{
 	border-top: solid .2em $blue;
-	border-width-top: inherit;
 	display: inline-block;
 }
 
@@ -116,6 +115,10 @@ form ul li {
 form ul{
 	margin: 0;
 }	
+
+ul {
+	margin: 0;
+}
 
 .form-box{
 	margin-left: 1.999%;

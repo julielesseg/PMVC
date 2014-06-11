@@ -11,7 +11,7 @@ h1{
 }
 
 h2{
-	margin: 0.8em 0 0 0;
+	margin: 0.9em 0 .3em 0;
 	color: $blue;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -210,6 +210,7 @@ li{
 	font-size: 4em;
 	font-family: $demi-compressed;
 	font-weight: 700;
+	line-height: .7em;
 }
 
 .rsvp-button{
