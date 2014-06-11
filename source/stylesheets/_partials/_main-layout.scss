@@ -1,10 +1,9 @@
 .intro{
 	position: relative;
-/* 	margin-top: 120px; */
 	height: auto;
 }
 
-.star-wrapper {
+.star-wrapper{
 	position: relative;
 
 	.blue-star{
@@ -26,26 +25,24 @@
 
 .bio-pic{
 	width: 100%;
-	
-/* 	margin-top: 6em; */
 }
 
-.about-bio {
+.about-bio{
 	padding-top: 1.2em;
 	height: 100%;
 	clear: both;
 }
 
-.intro-txt {
+.intro-txt{
 	top: -10px;
 }
 
 
-.black-rule {
+.black-rule{
 	border-bottom: $black 1px solid;
 }
  
-.blue-rule {
+.blue-rule{
 	border-top: $blue .3em solid;
 }
 
