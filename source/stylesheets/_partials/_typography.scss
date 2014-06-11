@@ -141,6 +141,15 @@ li{
 	
 }
 
+.global-txt-black{
+	color: $black;
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: $slab;
+	font-color: $black;
+	
+}
+
 .global-button{
 	color: $white;
 	text-align: center;
@@ -200,6 +209,7 @@ li{
 	color: $black;
 	font-size: 4em;
 	font-family: $demi-compressed;
+	font-weight: 700;
 }
 
 .rsvp-button{
