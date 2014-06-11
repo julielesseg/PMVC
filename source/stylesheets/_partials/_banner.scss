@@ -5,7 +5,7 @@
 
 .banner-about {
 	background-image: url(../../images/city.jpg);
-	background-position: center center;
+	background-position: top center;
 }
 
 .banner-events {
@@ -17,6 +17,7 @@
 .banner-involved {
 	background-image: url(../../images/hands.jpg);
 	background-position: center center;
+	background-size: 120%;
 }
 
 .banner-resources {
@@ -60,6 +61,7 @@
 	position: relative;
 	overflow: hidden;
 	background-image: url(../../images/city.jpg);
+	background-position: center bottom;
 	
 	.banner-box{
 		background-color: $blue-banner;
