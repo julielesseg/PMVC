@@ -10,6 +10,10 @@ nav{
 		margin: 25px 0 0 0;
 	}
 	
+	.active{
+			border-top: solid .2em $blue;
+	}
+	
 	@include breakpoint($small-width){
 		nav{
 			height: 100%;

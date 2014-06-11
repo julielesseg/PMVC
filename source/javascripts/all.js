@@ -60,8 +60,13 @@ $(document).ready(function(){
     }
 
     showNextQuote();
-
-	$(function() {
-		var current_page = window.location.href; // returns the full URL
+	
+	
+	var path = window.location.href;
+	$('.nav-links a').each(function() {
+	    if (this.href === path) {
+	        $(this).addClass('active');
+	    }
+	});
 
 });
